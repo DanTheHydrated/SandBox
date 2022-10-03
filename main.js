@@ -33,11 +33,19 @@ const array3 = [
   {number: 100, stat: 'ok'},
   {number: 42069, stat: 'wow'},
   {number: 320, stat: 'ok'},
-  {number: 1000, stat: 'ok'}
+  {number: 1000, stat: 'ok'},
+  {number: 34.5, stat: 'ok'}
 ];
 
 const funnyNum = array3.filter(numbers => numbers.stat === 'wow' || numbers.stat === 'nice');
 console.log(funnyNum);
+
+const findFunny = arry3.map(item => item * 2) 
+    if (item.number === 69) {
+      array3.setAttribute('stat', 'nice');
+      console.log(array3[6]);
+    };
+
 
 
 
